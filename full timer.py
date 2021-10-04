@@ -43,17 +43,17 @@ while True:
             print(colorama.Fore.CYAN+colorama.Style.DIM+a)
         if i ==10:
             print(colorama.Fore.LIGHTBLACK_EX+colorama.Style.DIM+a)
-        bunner()    
-        a = time.localtime()
-        c = time.strftime(colorama.Fore.CYAN+colorama.Style.BRIGHT+'\t"year is":"%Y\n\t\t"mon is":"%m\n\t\t\t"day is":"%d"\n\t\t"yaer day":"%j"\n\t"monts":"%b"\n\n\n"%Z"\n\n\n\n\t\t\t}' , a)
-        b = time.strftime(colorama.Fore.CYAN+colorama.Style.BRIGHT+'{ \n\n"time is":"%H:%M:%S"\n' , a )
-        print(g)
-        print(b , c)
-        time.sleep(1)
-        if os.name == 'nt':
-            os.system('cls')
-        else:
-            os.system('clear')
+    bunner()    
+    a = time.localtime()
+    c = time.strftime(colorama.Fore.CYAN+colorama.Style.BRIGHT+'\t"year is":"%Y\n\t\t"mon is":"%m\n\t\t\t"day is":"%d"\n\t\t"yaer day":"%j"\n\t"monts":"%b"\n\n\n"%Z"\n\n\n\n\t\t\t}' , a)
+    b = time.strftime(colorama.Fore.CYAN+colorama.Style.BRIGHT+'{ \n\n"time is":"%H:%M:%S"\n' , a )
+    print(g)
+    print(b , c)
+    time.sleep(1)
+    if os.name == 'nt':
+          os.system('cls')
+    else:
+          os.system('clear')
 
     
     
